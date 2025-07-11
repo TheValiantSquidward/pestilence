@@ -1,0 +1,9 @@
+{
+  "entity.pestilence.zac_the_rat": "Zac The Rat",
+  "item.pestilence.zac_the_rat_spawn_egg": "Zac The Rat Spawn Egg",
+  "itemGroup.pestilence": "Pestilence",
+  "subtitles.zac_the_rat_death": "Zac The Rat dies",
+  "subtitles.zac_the_rat_hurt": "Zac The Rat hurts",
+  "subtitles.zac_the_rat_idle": "Zac The Rat chatters",
+  "subtitles.zac_the_rat_shoot": "Zac The Rat shoots"
+}

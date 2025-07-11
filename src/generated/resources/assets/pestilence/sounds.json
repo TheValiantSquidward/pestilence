@@ -1,0 +1,35 @@
+{
+  "zac_the_rat_death": {
+    "sounds": [
+      "pestilence:entity/zac_the_rat/death1"
+    ],
+    "subtitle": "subtitles.zac_the_rat_death"
+  },
+  "zac_the_rat_hurt": {
+    "sounds": [
+      "pestilence:entity/zac_the_rat/hurt1",
+      "pestilence:entity/zac_the_rat/hurt2",
+      "pestilence:entity/zac_the_rat/hurt3"
+    ],
+    "subtitle": "subtitles.zac_the_rat_hurt"
+  },
+  "zac_the_rat_idle": {
+    "sounds": [
+      "pestilence:entity/zac_the_rat/idle1",
+      "pestilence:entity/zac_the_rat/idle2",
+      "pestilence:entity/zac_the_rat/idle3",
+      "pestilence:entity/zac_the_rat/idle4",
+      "pestilence:entity/zac_the_rat/idle5",
+      "pestilence:entity/zac_the_rat/idle6",
+      "pestilence:entity/zac_the_rat/idle7"
+    ],
+    "subtitle": "subtitles.zac_the_rat_idle"
+  },
+  "zac_the_rat_shoot": {
+    "sounds": [
+      "pestilence:entity/zac_the_rat/shoot1",
+      "pestilence:entity/zac_the_rat/shoot2"
+    ],
+    "subtitle": "subtitles.zac_the_rat_shoot"
+  }
+}
