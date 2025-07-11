@@ -17,6 +17,9 @@ public class PestilenceItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Pestilence.MOD_ID);
     public static List<RegistryObject<? extends Item>> AUTO_TRANSLATE = new ArrayList<>();
 
+
+    public static final RegistryObject<Item> CAN_OF_JAM = ITEMS.register("can_of_jam", () -> new Item(new Item.Properties()));
+
     // spawn eggs
     public static final RegistryObject<Item> ZAC_THE_RAT_SPAWN_EGG = registerSpawnEggItem("zac_the_rat", PestilenceEntities.ZAC_THE_RAT, 0xbab2b2, 0x95fffa);
 
