@@ -10,6 +10,7 @@ import net.thevaliantsquidward.pestilence.Pestilence;
 public class PestilenceModelLayers {
 
     public static final ModelLayerLocation ZAC_THE_RAT = main("zac_the_rat");
+    public static final ModelLayerLocation SUMMONED_ZAC_THE_RAT = main("zac_the_rat");
 
     private static ModelLayerLocation register(String id, String name) {
         return new ModelLayerLocation(new ResourceLocation(Pestilence.MOD_ID, id), name);

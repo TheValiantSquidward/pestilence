@@ -7,6 +7,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.thevaliantsquidward.pestilence.Pestilence;
+import net.thevaliantsquidward.pestilence.items.CanOfJamItem;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -18,7 +19,7 @@ public class PestilenceItems {
     public static List<RegistryObject<? extends Item>> AUTO_TRANSLATE = new ArrayList<>();
 
 
-    public static final RegistryObject<Item> CAN_OF_JAM = registerItem("can_of_jam", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CAN_OF_JAM = registerItem("can_of_jam", () -> new CanOfJamItem(new Item.Properties()));
 
     // spawn eggs
     public static final RegistryObject<Item> ZAC_THE_RAT_SPAWN_EGG = registerSpawnEggItem("zac_the_rat", PestilenceEntities.ZAC_THE_RAT, 0xbab2b2, 0x95fffa);

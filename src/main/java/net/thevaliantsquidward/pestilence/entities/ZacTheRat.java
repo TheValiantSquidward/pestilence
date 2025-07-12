@@ -24,7 +24,6 @@ import net.minecraft.world.phys.AABB;
 import net.minecraft.world.phys.Vec3;
 import net.thevaliantsquidward.pestilence.registry.PestilenceSoundEvents;
 
-import javax.annotation.Nullable;
 import java.util.EnumSet;
 
 public class ZacTheRat extends Ghast {
@@ -90,12 +89,7 @@ public class ZacTheRat extends Ghast {
 
     @Override
     public boolean hurt(DamageSource source, float amount) {
-        if (isReflectedFireball(source)) {
-            super.hurt(source, 1000.0F);
-            return true;
-        } else {
             return !this.isInvulnerableTo(source) && super.hurt(source, amount);
-        }
     }
 
     @Override

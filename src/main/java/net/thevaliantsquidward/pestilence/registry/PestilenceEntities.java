@@ -23,4 +23,13 @@ public class PestilenceEntities {
                     .fireImmune()
                     .build(new ResourceLocation(Pestilence.MOD_ID, "zac_the_rat").toString())
     );
+
+    public static final RegistryObject<EntityType<ZacTheRat>> SUMMONED_ZAC_THE_RAT = ENTITY_TYPES.register(
+            "summoned_zac_the_rat", () ->
+                    EntityType.Builder.of(ZacTheRat::new, MobCategory.MONSTER)
+                            .sized(1.0F, 1.0F)
+                            .clientTrackingRange(10)
+                            .fireImmune()
+                            .build(new ResourceLocation(Pestilence.MOD_ID, "summoned_zac_the_rat").toString())
+    );
 }
