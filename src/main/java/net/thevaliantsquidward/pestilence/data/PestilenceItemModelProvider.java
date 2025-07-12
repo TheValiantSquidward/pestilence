@@ -10,6 +10,7 @@ import net.minecraftforge.data.event.GatherDataEvent;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.thevaliantsquidward.pestilence.Pestilence;
+import net.thevaliantsquidward.pestilence.registry.PestilenceItems;
 
 import java.util.Objects;
 
@@ -21,6 +22,8 @@ public class PestilenceItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
+
+        item(PestilenceItems.CAN_OF_JAM);
 
         // spawn eggs
         for (Item item : BuiltInRegistries.ITEM) {

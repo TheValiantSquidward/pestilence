@@ -18,7 +18,6 @@ public class PestilenceItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, Pestilence.MOD_ID);
     public static List<RegistryObject<? extends Item>> AUTO_TRANSLATE = new ArrayList<>();
 
-
     public static final RegistryObject<Item> CAN_OF_JAM = registerItem("can_of_jam", () -> new CanOfJamItem(new Item.Properties()));
 
     // spawn eggs
