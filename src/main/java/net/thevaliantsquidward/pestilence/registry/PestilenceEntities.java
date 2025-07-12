@@ -24,9 +24,9 @@ public class PestilenceEntities {
                     .build(new ResourceLocation(Pestilence.MOD_ID, "zac_the_rat").toString())
     );
 
-    public static final RegistryObject<EntityType<ZacTheRat>> SUMMONED_ZAC_THE_RAT = ENTITY_TYPES.register(
+    public static final RegistryObject<EntityType<SummonedZac>> SUMMONED_ZAC_THE_RAT = ENTITY_TYPES.register(
             "summoned_zac_the_rat", () ->
-                    EntityType.Builder.of(ZacTheRat::new, MobCategory.MONSTER)
+                    EntityType.Builder.of(SummonedZac::new, MobCategory.MONSTER)
                             .sized(1.0F, 1.0F)
                             .clientTrackingRange(10)
                             .fireImmune()
