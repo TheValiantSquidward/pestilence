@@ -13,6 +13,7 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.phys.Vec3;
+import net.thevaliantsquidward.pestilence.registry.PestilenceEntities;
 import net.thevaliantsquidward.pestilence.registry.PestilenceSoundEvents;
 
 import java.util.UUID;
@@ -39,7 +40,7 @@ public class CanOfJamItem extends Item {
                 }
             }
 
-            Entity newEntity = EntityType.PIG.create(level);
+            Entity newEntity = PestilenceEntities.SUMMONED_ZAC_THE_RAT.get().create(level);
             if (newEntity != null) {
                 newEntity.moveTo(player.getX(), player.getY(), player.getZ());
                 level.addFreshEntity(newEntity);
